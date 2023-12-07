@@ -25,8 +25,8 @@ extension Pointer: CustomStringConvertible {
 }
 
 extension Pointer: Hashable {
-    var hashValue: Int {
-        return address.hashValue
+    func hash(into hasher: inout Hasher) {
+      hasher.combine(address)
     }
     
     static func ==(lhs: Pointer, rhs: Pointer) -> Bool {
@@ -269,8 +269,8 @@ class MemoryRegion {
 }
 
 extension MemoryRegion: Hashable {
-    var hashValue: Int {
-        return pointer.hashValue
+    func hash(into hasher: inout Hasher) {
+      hasher.combine(pointer)
     }
 }
 
