@@ -1,0 +1,6 @@
+digraph memory_dump_graph {
+graph [bgcolor=black]
+_600001370030 [style=filled] [fillcolor=white] [label="malloc 0x600001370030 (16 bytes)
+490d020001000001
+0000000000000000"]
+}

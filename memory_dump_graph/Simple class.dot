@@ -1,0 +1,182 @@
+digraph memory_dump_graph {
+graph [bgcolor=black]
+_10000b018 [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.y.setter : Swift.Int
+ 0x10000b018 (72 bytes)
+ff0301d1fd7b03a9
+fdc30091e00700f9
+80620091e1630091
+e10b00f928048052
+e20308aa030080d2
+48350094e80740f9
+e00b40f9880e00f9
+40360094fd7b43a9..."]
+_10000b060 [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.y.modify : Swift.Int
+ 0x10000b060 (64 bytes)
+ff8300d1fd7b01a9
+fd430091e10300aa
+80620091e00700f9
+28048052e20308aa
+030080d237350094
+e10740f900000090
+00800291fd7b41a9
+ff830091c0035fd6"]
+_10000b1ec [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.z.setter : Swift.Int
+ 0x10000b1ec (72 bytes)
+ff0301d1fd7b03a9
+fdc30091e00700f9
+80820091e1630091
+e10b00f928048052
+e20308aa030080d2
+d3340094e80740f9
+e00b40f9881200f9
+cb350094fd7b43a9..."]
+_10000b234 [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.z.modify : Swift.Int
+ 0x10000b234 (64 bytes)
+ff8300d1fd7b01a9
+fd430091e10300aa
+80820091e00700f9
+28048052e20308aa
+030080d2c2340094
+e10740f900000090
+00d00991fd7b41a9
+ff830091c0035fd6"]
+_10000adfc [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.x.getter : Swift.Int
+ 0x10000adfc (72 bytes)
+ff0301d1fd7b03a9
+fdc3009180420091
+e1630091e10700f9
+08048052e20308aa
+030080d2d0350094
+e00740f9880a40f9
+e80b00f9c8360094
+e00b40f9fd7b43a9..."]
+_600001f7c540 [style=filled] [fillcolor=white] [label="Instance of memorydumper2.SimpleClass
+ 0x600001f7c540 (48 bytes)
+5011020001000000
+0300000000000000
+0100000000000000
+0200000000000000
+0300000000000000
+0000000000000000"]
+_600001f7c540 -> _100021150 [color=white] [fontcolor=white] [label="@0"]
+_10000ae44 [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.x.setter : Swift.Int
+ 0x10000ae44 (72 bytes)
+ff0301d1fd7b03a9
+fdc30091e00700f9
+80420091e1630091
+e10b00f928048052
+e20308aa030080d2
+bd350094e80740f9
+e00b40f9880a00f9
+b5360094fd7b43a9..."]
+_1dff92d70 [style=filled] [fillcolor=white] [label="OBJC_METACLASS_$_Swift._SwiftObject
+ 0x1dff92d70 (40 bytes)
+702df9df01000000
+482df9df01000000
+50b49a8901000000
+00000000000034a0
+e00d140100600080"]
+_1dff92d70 -> _1dff92d70 [color=white] [fontcolor=white] [label="@0"]
+_1dff92d70 -> _1dff92d48 [color=white] [fontcolor=white] [label="@8"]
+_1dff92d70 -> _1899ab450 [color=white] [fontcolor=white] [label="@16"]
+_10001a8fc [style=filled] [fillcolor=white] [label="nominal type descriptor for memorydumper2.SimpleClass
+ 0x10001a8fc (52 bytes)
+5000008010feffff
+fcecffffe003ffff
+7006000000000000
+0300000017000000
+0d00000003000000
+0a0000000d000000
+0a000000"]
+_10000ae8c [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.x.modify : Swift.Int
+ 0x10000ae8c (64 bytes)
+ff8300d1fd7b01a9
+fd430091e10300aa
+80420091e00700f9
+28048052e20308aa
+030080d2ac350094
+e10740f900000090
+00303b91fd7b41a9
+ff830091c0035fd6"]
+_10000b1a4 [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.z.getter : Swift.Int
+ 0x10000b1a4 (72 bytes)
+ff0301d1fd7b03a9
+fdc3009180820091
+e1630091e10700f9
+08048052e20308aa
+030080d2e6340094
+e00740f9881240f9
+e80b00f9de350094
+e00b40f9fd7b43a9..."]
+_1899ab450 [style=filled] [fillcolor=white] [label="_objc_empty_cache
+ 0x1899ab450 (128 bytes)
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000..."]
+_10000afd0 [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.y.getter : Swift.Int
+ 0x10000afd0 (72 bytes)
+ff0301d1fd7b03a9
+fdc3009180620091
+e1630091e10700f9
+08048052e20308aa
+030080d25b350094
+e00740f9880e40f9
+e80b00f953360094
+e00b40f9fd7b43a9..."]
+_1dff92d48 [style=filled] [fillcolor=white] [label="ObjC class Swift._SwiftObject
+ 0x1dff92d48 (40 bytes)
+712df9df01000001
+0000000000000000
+50b49a8901000000
+0000000000001880
+000e140100600080"]
+_1dff92d48 -> _1899ab450 [color=white] [fontcolor=white] [label="@16"]
+_100021150 [style=filled] [fillcolor=white] [label="ObjC class memorydumper2.SimpleClass
+ 0x100021150 (184 bytes)
+1011020001000000
+482df9df01000000
+50b49a8901000000
+0000000000003080
+628a1b0100600080
+0200000000000000
+2800000007000000
+d000000018000000..."]
+_100021150 -> _100021110 [color=white] [fontcolor=white] [label="@0"]
+_100021150 -> _1dff92d48 [color=white] [fontcolor=white] [label="@8"]
+_100021150 -> _1899ab450 [color=white] [fontcolor=white] [label="@16"]
+_100021150 -> _10001a8fc [color=white] [fontcolor=white] [label="@64"]
+_100021150 -> _10000adfc [color=white] [fontcolor=white] [label="@104"]
+_100021150 -> _10000ae44 [color=white] [fontcolor=white] [label="@112"]
+_100021150 -> _10000ae8c [color=white] [fontcolor=white] [label="@120"]
+_100021150 -> _10000afd0 [color=white] [fontcolor=white] [label="@128"]
+_100021150 -> _10000b018 [color=white] [fontcolor=white] [label="@136"]
+_100021150 -> _10000b060 [color=white] [fontcolor=white] [label="@144"]
+_100021150 -> _10000b1a4 [color=white] [fontcolor=white] [label="@152"]
+_100021150 -> _10000b1ec [color=white] [fontcolor=white] [label="@160"]
+_100021150 -> _10000b234 [color=white] [fontcolor=white] [label="@168"]
+_100021150 -> _10000b310 [color=white] [fontcolor=white] [label="@176"]
+_10000b310 [style=filled] [fillcolor=white] [label="memorydumper2.SimpleClass.__allocating_init() -> memorydumper2.SimpleClass
+ 0x10000b310 (56 bytes)
+f44fbea9fd7b01a9
+fd430091e00314aa
+08058052e10308aa
+e8008052e20308aa
+77340094f40300aa
+04000094fd7b41a9
+f44fc2a8c0035fd6"]
+_100021110 [style=filled] [fillcolor=white] [label="metaclass for memorydumper2.SimpleClass
+ 0x100021110 (40 bytes)
+702df9df01000000
+702df9df01000000
+50b49a8901000000
+00000000000034a0
+808a1b0100600080"]
+_100021110 -> _1dff92d70 [color=white] [fontcolor=white] [label="@0"]
+_100021110 -> _1dff92d70 [color=white] [fontcolor=white] [label="@8"]
+_100021110 -> _1899ab450 [color=white] [fontcolor=white] [label="@16"]
+}

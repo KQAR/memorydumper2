@@ -1,0 +1,79 @@
+digraph memory_dump_graph {
+graph [bgcolor=black]
+_600001378040 [style=filled] [fillcolor=white] [label="Instance of memorydumper2.EmptyClass
+ 0x600001378040 (16 bytes)
+9010020001000000
+0300000000000000"]
+_600001378040 -> _100021090 [color=white] [fontcolor=white] [label="@0"]
+_10001a878 [style=filled] [fillcolor=white] [label="nominal type descriptor for memorydumper2.EmptyClass
+ 0x10001a878 (52 bytes)
+5000008094feffff
+3dedffffa001ffff
+a006000000000000
+030000000b000000
+0100000000000000
+0a0000000a000000
+01000000"]
+_10000aaa8 [style=filled] [fillcolor=white] [label="memorydumper2.EmptyClass.__allocating_init() -> memorydumper2.EmptyClass
+ 0x10000aaa8 (56 bytes)
+f44fbea9fd7b01a9
+fd430091e00314aa
+08028052e10308aa
+e8008052e20308aa
+91360094f40300aa
+0d000094fd7b41a9
+f44fc2a8c0035fd6"]
+_1dff92d70 [style=filled] [fillcolor=white] [label="OBJC_METACLASS_$_Swift._SwiftObject
+ 0x1dff92d70 (40 bytes)
+702df9df01000000
+482df9df01000000
+50b49a8901000000
+00000000000034a0
+e00d140100600080"]
+_1dff92d70 -> _1dff92d70 [color=white] [fontcolor=white] [label="@0"]
+_1dff92d70 -> _1dff92d48 [color=white] [fontcolor=white] [label="@8"]
+_1dff92d70 -> _1899ab450 [color=white] [fontcolor=white] [label="@16"]
+_100021090 [style=filled] [fillcolor=white] [label="ObjC class memorydumper2.EmptyClass
+ 0x100021090 (88 bytes)
+5010020001000000
+482df9df01000000
+50b49a8901000000
+0000000000001880
+e2891b0100600080
+0200000000000000
+1000000007000000
+7000000018000000..."]
+_100021090 -> _100021050 [color=white] [fontcolor=white] [label="@0"]
+_100021090 -> _1dff92d48 [color=white] [fontcolor=white] [label="@8"]
+_100021090 -> _1899ab450 [color=white] [fontcolor=white] [label="@16"]
+_100021090 -> _10001a878 [color=white] [fontcolor=white] [label="@64"]
+_100021090 -> _10000aaa8 [color=white] [fontcolor=white] [label="@80"]
+_1dff92d48 [style=filled] [fillcolor=white] [label="ObjC class Swift._SwiftObject
+ 0x1dff92d48 (40 bytes)
+712df9df01000001
+0000000000000000
+50b49a8901000000
+0000000000001880
+000e140100600080"]
+_1dff92d48 -> _1899ab450 [color=white] [fontcolor=white] [label="@16"]
+_1899ab450 [style=filled] [fillcolor=white] [label="_objc_empty_cache
+ 0x1899ab450 (128 bytes)
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000..."]
+_100021050 [style=filled] [fillcolor=white] [label="metaclass for memorydumper2.EmptyClass
+ 0x100021050 (40 bytes)
+702df9df01000000
+702df9df01000000
+50b49a8901000000
+00000000000034a0
+008a1b0100600080"]
+_100021050 -> _1dff92d70 [color=white] [fontcolor=white] [label="@0"]
+_100021050 -> _1dff92d70 [color=white] [fontcolor=white] [label="@8"]
+_100021050 -> _1899ab450 [color=white] [fontcolor=white] [label="@16"]
+}

@@ -1,0 +1,31 @@
+digraph memory_dump_graph {
+graph [bgcolor=black]
+_60000136d230 [style=filled] [fillcolor=white] [label="malloc 0x60000136d230 (16 bytes)
+10d2360100600000
+20d2360100600000"]
+_60000136d230 -> _60000136d210 [color=white] [fontcolor=white] [label="@0"]
+_60000136d230 -> _60000136d220 [color=white] [fontcolor=white] [label="@8"]
+_60000136d220 [style=filled] [fillcolor=white] [label="malloc 0x60000136d220 (16 bytes)
+00d2360100600000
+f0d1360100600000"]
+_60000136d220 -> _60000136d200 [color=white] [fontcolor=white] [label="@0"]
+_60000136d220 -> _60000136d1f0 [color=white] [fontcolor=white] [label="@8"]
+_60000136d1f0 [style=filled] [fillcolor=white] [label="malloc 0x60000136d1f0 (16 bytes)
+536f6d657468696e
+670048656c6c6f21
+Strings:
+Something
+Hello!"]
+_60000136d210 [style=filled] [fillcolor=white] [label="malloc 0x60000136d210 (16 bytes)
+00d2360100600000
+0000000000000000"]
+_60000136d210 -> _60000136d200 [color=white] [fontcolor=white] [label="@0"]
+_16fdfed48 [style=filled] [fillcolor=white] [label="unknown 0x16fdfed48 (8 bytes)
+30d2360100600000"]
+_16fdfed48 -> _60000136d230 [color=white] [fontcolor=white] [label="@0"]
+_60000136d200 [style=filled] [fillcolor=white] [label="malloc 0x60000136d200 (16 bytes)
+4c65616620686572
+6500000000000000
+Strings:
+Leaf here"]
+}
