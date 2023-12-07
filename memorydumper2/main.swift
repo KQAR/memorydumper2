@@ -34,7 +34,7 @@ extension Pointer: Hashable {
     }
     
     static func +(lhs: Pointer, rhs: UInt) -> Pointer {
-        return Pointer(lhs.address + rhs)
+        return Pointer(lhs.address &+ rhs)
     }
     
     static func -(lhs: Pointer, rhs: Pointer) -> UInt {
@@ -161,11 +161,13 @@ func objcClassName(ptr: Pointer) -> String? {
     struct Static {
         static let classMap: [Pointer: AnyClass] = {
             var classCount: UInt32 = 0
-            let list = objc_copyClassList(&classCount)!
-            
+            let classList = objc_copyClassList(&classCount)!
+          
+            defer { free(UnsafeMutableRawPointer(classList)) }
+          
+            let classes = UnsafeBufferPointer(start: classList, count: Int(classCount))
             var map: [Pointer: AnyClass] = [:]
-            for i in 0 ..< classCount {
-                let classObj: AnyClass = list[Int(i)]
+            for classObj in classes {
                 let classPtr = unsafeBitCast(classObj, to: Pointer.self)
                 map[classPtr] = classObj
             }
